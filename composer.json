@@ -1,0 +1,40 @@
+{
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.2.3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.2.3.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/better-wp-security":">=4.8.0",
+        "wordpress": "4.*",
+        "fancyguy/webroot-installer": "1.0.0"
+    },
+    "extra": {
+        "webroot-dir": "html/wp",
+        "webroot-package": "wordpress",
+        "installer-paths": {
+            "html/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "435WebDev": "src/"
+        }
+    }
+}
