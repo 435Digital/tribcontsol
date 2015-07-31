@@ -1,0 +1,155 @@
+/*
+Theme Name: Tribune Content Solutions
+Theme URI: http://www.435digital.com/
+Description: Divi Child Theme
+Version: 1
+Author: 435 Digital
+Author URI: http://www.435digital.com/
+Template: Divi
+*/
+
+/* Global */
+
+body {
+	font-family: "proxima-nova";
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	display: inline-block;
+	font-weight: bold;
+}
+
+/* Header */
+
+#logo {
+	max-height: 100% !important;
+}
+
+img#logo {
+	max-width: 100%;
+}
+
+.hero img {
+	height: 15em;
+	padding-bottom: 4em;
+}
+
+.hero h2 {
+	font-size: 4vh;
+	font-weight: bold;
+}
+
+/* Newsletter Sign Up */
+
+.newsletter {
+	padding: .5em;
+}
+
+.newsletter .gform_wrapper h3.gform_title {
+	color: #fff;
+	font-size: 2em;
+	border-bottom: 4px solid #fff;
+	display: inline-block;
+}
+
+.newsletter .gform_footer.top_label {
+	float: right;
+	margin: -4.1em 0 0 0 !important;
+}
+
+.newsletter .gform_wrapper .top_label input.medium {
+	width: 80% !important;
+	padding: .8em !important;
+	border: none !important;
+}
+
+.newsletter .gform_wrapper .gform_footer input.button {
+	background: none !important;
+	box-shadow: none !important;
+	border: 3px solid #fff !important;
+	color: #fff;
+	font-family: "proxima-nova" !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: .8em 3em;
+}
+
+/* Contact Form */
+
+.contact-us .gform_wrapper h3.gform_title {
+	color: #58add9;
+	font-size: 2em;
+	border-bottom: 4px solid #58add9;
+	display: inline-block;
+}
+
+.contact-us .gform_wrapper .top_label input.medium, .contact-us .gform_wrapper input[type=text] {
+	padding: .85em !important;
+	border: 3px solid #58add9 !important;
+}
+
+.contact-us .gform_wrapper textarea.medium, .contact-us .gform_wrapper textarea {
+	padding: .8em !important;
+	border: 3px solid #58add9 !important;
+}
+
+.contact-us ::-webkit-input-placeholder {
+   color: #58add9;
+}
+
+.contact-us :-moz-placeholder {
+   color: #58add9;
+}
+
+.contact-us :-ms-input-placeholder {
+   color: #58add9;
+}
+
+.contact-us .gform_wrapper .gform_footer input.button {
+	background: none !important;
+	box-shadow: none !important;
+	border: 3px solid #58add9 !important;
+	color: #58add9;
+	font-family: "proxima-nova" !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: .8em 3em;
+}
+
+.contact-us .ginput_container select {
+	max-height: 5em;
+  	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	-ms-appearance: none;
+  	appearance: none;
+  	width: 200px;
+  	display: block;
+  	width: 100%;
+  	border: 3px solid #58add9;
+  	background: #fff url(images/select.png) no-repeat right 10px center;
+  	color: #58add9;
+  	padding: .85em !important;
+  	margin: 0;
+  	line-height: normal;
+  	border-radius: 0;
+}
+
+.about-us h2 {
+	border-bottom: 4px solid;
+	border-color: inherit;
+	margin-bottom: 1em;
+	font-size: 2.1em;
+}
+
+
+/* added by keri */
+
+.bullet h4 {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.et_pb_widget a {
+    	color: inherit !important;
+}

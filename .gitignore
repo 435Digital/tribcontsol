@@ -24,13 +24,14 @@
 #
 # -----------------------------------------------------------------
 
-composer.phar
 html/wp-config.php
 html/wp-content/themes/twenty*/
+html/wp-content/themes/Divi/
 html/wp-content/plugins
 html/wp-content/uploads
 html/wp
 vendor
+resources
 
 # track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig
